@@ -3,10 +3,10 @@
   src: url('../fonts/TitilliumWeb-SemiBold.ttf');
 }
 
-body::after {
+body {
   content: "";
   background: url('../images/Light-Gradient.jpeg');
-  opacity: 0.1;
+  opacity: 2;
   top: 0;
   left: 0;
   bottom: 0;
@@ -17,7 +17,7 @@ body::after {
 
 body, input, button {
   font-family: 'Titillium Web', sans-serif;
-  color: #484848;
+  color: #000000;
 }
 
 #root, #wrapper {
@@ -43,7 +43,16 @@ h2 {
 
 h3 {
   font-size: 0.75rem;
-  line-height: 2rem;
+  line-height: 1rem;
+}
+
+li {
+  font-size: 0.85rem;
+  line-height: 1rem;
+}
+p {
+  font-size: 0.65rem;
+  line-height: 1rem;
 }
 
 nav {
